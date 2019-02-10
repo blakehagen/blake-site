@@ -6,7 +6,7 @@ import styles from './app.module.scss';
 const App = () => (
   <div className={styles.appWrapper}>
     <TopBar />
-    <div style={{ padding: 40 }}>
+    <div style={{ padding: 10 }}>
      cool app bro!
     </div>
     {/* Footer here... */}
