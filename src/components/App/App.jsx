@@ -1,13 +1,16 @@
 import React from 'react';
 import TopBar from '../TopBar';
+import Intro from '../Intro';
+import SectionHeader from '../SectionHeader';
 
 import styles from './app.module.scss';
 
 const App = () => (
   <div className={styles.appWrapper}>
     <TopBar />
-    <div style={{ padding: 10 }}>
-     cool app bro!
+    <div>
+      <Intro />
+      <SectionHeader name="About Me" />
     </div>
     {/* Footer here... */}
   </div>

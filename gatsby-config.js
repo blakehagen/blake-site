@@ -3,7 +3,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`open sans:300,400,800`, `merriweather:300,900`],
+        fonts: [`open sans:100,300,400,800`, `merriweather:300,900`],
       },
     },
     'gatsby-plugin-react-helmet',

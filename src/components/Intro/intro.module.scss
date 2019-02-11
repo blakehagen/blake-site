@@ -1,0 +1,70 @@
+.introWrapper {
+  padding: 40px 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+  font-family: 'open sans', sans-serif;
+  color: #494949;
+  h1 {
+    font-size: 36px;
+    font-weight: 300;
+    font-family: 'merriweather', serif;
+    line-height: 34px;
+    letter-spacing: 1px;
+    margin-left: -1px;
+    span {
+      font-weight: 900;
+    }
+  }
+  h2 {
+    margin: 8px 0 30px;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+  }
+}
+
+.shortIntro {
+  max-width: 350px;
+  p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+  }
+}
+
+.imageWrapper {
+  display: flex;
+  align-items: center;
+  max-width: 240px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid #DDD;
+  margin-bottom: 30px;
+  img {
+    width: 100%;
+    border-radius: 50%;
+    padding: 10px;
+  }
+}
+
+.tagContainer {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  max-width: 300px;
+  .techTag {
+    background: #368DC0;
+    color: #FFFFFF;
+    padding: 10px 14px;
+    font-size: 14px;
+    font-weight: 100;
+    margin: 0 10px 10px 0;
+  }
+}
