@@ -4,7 +4,7 @@ import styles from './intro.module.scss';
 
 const Intro = () => {
   const meImg = 'https://res.cloudinary.com/dewd4pral/image/upload/v1549830509/blake-site/bh.jpg';
-  const favTech = ['JavaScript', 'React', 'Angular', 'Node', 'SQL', 'PostgreSQL'];
+  const favTech = ['JavaScript', 'React', 'Node', 'Angular', 'SQL', 'PostgreSQL'];
   const techTags = _map(favTech, (tech, index) => (
     <div key={index} className={styles.techTag}>
       {tech}
